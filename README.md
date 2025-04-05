@@ -3,7 +3,7 @@
 
 This project implements a Deep Residual Learning approach to classify Strong Gravitational Lensing images into three categories based on their substructure. A 20-layer ResNet model was trained on a dataset of 30,000 images (split across training, validation, and test sets). The model was optimized using data augmentation, L2 regularization, and a learning rate scheduler that reduces LR when validation loss plateaus. The final trained model was evaluated using accuracy, loss curves, and ROC-AUC analysis to assess classification performance.
 
-I used extensively used free GPU compute offered by Google Colab, hence my entire project directory is hosted on Google Drive(whose link I had mailed to the team while submitting evaluation tests.)
+I used extensively used free GPU compute offered by Google Colab, hence my entire project directory is hosted on Google Drive.
 ## Project Structure
 The project directory has 4 sub directories: 
 
